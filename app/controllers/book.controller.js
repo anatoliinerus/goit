@@ -78,7 +78,7 @@ exports.update = (req, res) => {
         res.status(404).send({
           message: `Cannot update Book with id=${id}. Maybe Book was not found!`,
         });
-      } else res.send({ message: "Book was updated successfully." });
+      } else res.send(data);
     })
     .catch((err) => {
       res.status(500).send({
