@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Simple CRUD",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sir Shrek",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.9.2",
+    "mongoose": "^5.10.0",
+    "mongoose-paginate-v2": "^1.3.9",
+    "nodemon": "^2.0.22"
+  }
+}
